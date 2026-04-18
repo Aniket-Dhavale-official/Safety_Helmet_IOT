@@ -75,7 +75,7 @@ void sendSMS(String msg) {
 
   gsm.println("AT+CMGF=1");
   delay(1000);
-  gsm.println("AT+CMGS=\"+918369711639\"");
+  gsm.println("AT+CMGS=\"+91XXXXXXXXXX\"");
   delay(1000);
   gsm.print(msg);
   delay(500);
